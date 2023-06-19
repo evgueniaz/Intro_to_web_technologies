@@ -1,0 +1,44 @@
+body {
+    background: url(https://celes.club/uploads/posts/2022-11/thumbs/1667351661_37-celes-club-p-fon-dlya-praisa-konditera-oboi-38.png);
+}
+
+div {
+    background-color: rgb(214, 243, 251);
+    padding: 5px;
+    margin: 5px 50% 5px 10%;
+}
+
+h1 {
+    color: rgb(33, 6, 169);
+    background-color: rgb(135, 154, 249);
+    padding: 9px;
+    text-align: center;
+    font-size: 4em;
+}
+
+footer a {
+    background-color: silver;
+    margin: 3px;
+    padding: 3px;
+    color: rgb(43, 29, 192);
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+footer a:hover {
+    background-color: rgb(89, 89, 248);
+}
+
+p {
+    font-size: larger;
+}
+header h2 {
+    color: rgb(49, 49, 233);
+    font-size: x-large;
+}
+
+ol {
+    color: rgb(57, 57, 201);
+    font-size: larger;
+}
