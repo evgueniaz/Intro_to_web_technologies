@@ -47,7 +47,7 @@ button[type="submit"]:hover {
     font-weight: bold;
 }
 
-#result {
+#userName {
     text-align: center;
     margin-top: 20px;
     font-size: 24pt;

@@ -1,12 +1,22 @@
+salut();
+
+
 function salut() {
     var userName = document.getElementById("name").value;
-    message = 'Привет, ' + userName + '!'
-    document.getElementById("result").innerText = message;
-    document.getElementById("name").value = '';
+    console.log(userName);
+    document.getElementById(userName).innerText = "Привет, " + userName + "!";
+    document.getElementById("name").value = "";
     }
 
-    salut();
 
+function sendMessage() {
+    var chatMessage = document.getElementById("chatMessage").value;
+    var chatName = document.getElementById("chatName").value;
+    console.log(chatMessage);
+    document.getElementById("message1").innerText = chatName + " : " + chatMessage;
+    document.getElementById("chatMessage").value = "";
+    document.getElementById("chatName").value = "";
+}
 
 // const form = document.querySelector('form');
 // const input = document.querySelector('input[type="text"]');
