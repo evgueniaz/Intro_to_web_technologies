@@ -1,5 +1,9 @@
 <?php
 $name = "Билл Гейтс";
+$profession = "Programmist";
+$city = "Moscow";
+$email = "cat@foryou.com";
+$phone = "12345";
 
 $skills = [
 	[
@@ -16,22 +20,22 @@ $skills = [
     ]
  ];
 
- $jobs = [
+$jobs = [
 	[
-    'name' => "Front End Developer",
-      'dates' => "Jan 2015 ",
+    	'name' => "Front End Developer",
+        'dates' => "Jan 2015",
         'description' => "Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
-    ],
-    [
-      'name' => "Web Developer / something.com",
+        ],
+        [
+        'name' => "Web Developer / something.com",
         'dates' => "Mar 2012 - Dec 2014",
-          'description' => "Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
-    ],
-    [
-      'name' => "Graphic Designer / designsomething.com",
+        'description' => "Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste."
+        ],
+        [
+        'name' => "Graphic Designer / designsomething.com",
         'dates' => "Jun 2010 - Mar 2012",
-          'description' => "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-    ]
+        'description' => "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+       ]
  ];
         
 
@@ -69,10 +73,10 @@ $skills = [
           </div>
         </div>
         <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i></p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Город, страна</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>E-mail</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>Телефон</p>
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i><?=$profession?></p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i><?=$city?></p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i><?=$email?></p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i><?=$phone?></p>
           <hr>
 
           <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Навыки</b></p>
@@ -117,8 +121,8 @@ $skills = [
     
       <div class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Опыт работы</h2>
-
-              
+      
+      
       <?php foreach($jobs as $key => $job): ?> 
       	<div class="w3-container">
           <h5 class="w3-opacity"><b><?=$job['name']?> </b></h5>
